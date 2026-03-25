@@ -1,0 +1,67 @@
+body {
+    background: #e5e5e5;
+    font-family: Arial;
+    margin: 0;
+}
+
+.caja {
+    width: 320px;
+    background: white;
+    margin: 40px auto;
+    padding: 15px;
+    border-radius: 6px;
+}
+
+.titulo {
+    text-align: center;
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+.fila-input {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 15px;
+}
+
+input {
+    flex: 1;
+    padding: 7px;
+    border: 2px solid #b58cff;
+    border-radius: 5px;
+}
+
+button {
+    background: #8c52ff;
+    color: white;
+    border: none;
+    padding: 7px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.lista {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.tarea {
+    background: #f4f4f4;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #cfcfcf;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: black; 
+}
+
+
+
+.la_x {
+    background: #ff4d4d;
+    color: white;
+    padding: 3px 7px;
+    border-radius: 4px;
+}
